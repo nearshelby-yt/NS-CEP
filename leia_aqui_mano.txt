@@ -1,0 +1,5 @@
+Esta script é uma script de consultas CEP feita em python utilizando a API do viacep.
+
+Criador: Near Shelby
+API: https://viacep.com.br/ws/01001000/json/
+MEU CANAL NO YOUTUBE: https://www.youtube.com/channel/UCYx02EM3e2h2Nbn2OwJ9voQ
