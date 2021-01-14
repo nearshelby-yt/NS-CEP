@@ -14,7 +14,7 @@ def main():
     cep_input = input("\033[1;31m-\033[1;34mCEP\033[1;31m->")
 
     if len(cep_input) != 8:
-        print("Seu idiota, você digitou uma quantidade de numeros menor que 8, digita essa porra direito")
+        print("Seu idiota, você digitou uma quantidade de numeros menor ou maior que 8, digita essa porra direito")
         exit()
 
     request = requests.get('https://viacep.com.br/ws/{}/json/'.format(cep_input))
