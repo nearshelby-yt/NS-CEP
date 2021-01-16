@@ -11,13 +11,13 @@ def main():
 |_| \_|____/       \____|_____|_|    
     """)
 
-    cep_input = input("\033[1;31m=\033[1;34mCEP\033[1;31m=\033[1;33m>\033[1;32m")
+    cep = input("\033[1;31m=\033[1;34mCEP\033[1;31m=\033[1;33m>\033[1;32m")
 
-    if len(cep_input) != 8:
+    if len(cep) != 8:
         print("\033[1;35mSeu idiota, você digitou uma quantidade de numeros menor ou maior que 8,ou uma letra, digita essa porra direito")
         exit()
 
-    request = requests.get('https://viacep.com.br/ws/{}/json/'.format(cep_input))
+    request = requests.get('https://viacep.com.br/ws/{}/json/'.format(cep))
 
     address_data = request.json()
 
@@ -38,7 +38,7 @@ def main():
         print()
         
     else:
-        print('\033[1;35m{} é um CEP inválido seu retardado'.format(cep_input))
+        print('\033[1;35m{} é um CEP inválido seu retardado'.format(cep))
     
     opt = input('\033[1;33mDeseja realizar uma nova consulta? \033[1;32ms\033[1;33m/\033[1;31mn\033[1;33m:\033[1;36m ')
     if opt == 's':
