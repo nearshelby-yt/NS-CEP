@@ -48,7 +48,7 @@ def main():
         print("\033[1;35mVocê escolheu sair, volte sempre meu caro infectado ^-^")
 
     else:
-        print("\033[1;35mVocê digitou uma letra ou numero aleatorio, então entendi que você resolveu sair, volte sempre meu caro infectado ^-^")
+        print("\033[1;35mTchauzinho +_+")
 
 if __name__== '__main__':
     main()
