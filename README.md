@@ -1,3 +1,4 @@
+<hr>
 <center>
   <h1>Consultar CEP</h1>
   <p>Script feita em Python utilizando a API viacep (Legalizada).</p>
@@ -7,5 +8,6 @@
   <h3>Créditos:</h3>
   <p>Near Shelby</p>
   <h4>Demonstração:</h4>
-  [NS-CEP]()
+  [NS-CEP](https://github.com/nearshelby-yt/NS-CEP/blob/main/Captura%20de%20tela%20de%202021-01-25%2015-26-46.png)
 </center>
+<hr>
